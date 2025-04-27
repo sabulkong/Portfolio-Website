@@ -1,4 +1,5 @@
 
+
 * 
 
 body {
@@ -15,27 +16,31 @@ body {
   margin: auto;
 }
 
-/* Header Section */
+
 .header {
   background: #00252e;
   padding: 20px 0;
   color: #fff;
   position: relative;
 }
-
 .navbar {
-  display: flex;
+  display: column;;
   align-items: center;
   justify-content: space-between;
+  border-bottom: 1px solid #222;
+  padding: 1.5rem 3rem;
 }
 
 .navbar h1 {
   font-size: 24px;
+  margin: 0;
 }
 
 .navbar ul {
   list-style: none;
   display: flex;
+  justify-content: flex-end;
+
 }
 
 .navbar ul li {
