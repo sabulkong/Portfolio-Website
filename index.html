@@ -7,148 +7,121 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
+<!-- Add this right after opening <body> tag -->
+    <div class="theme-toggle">
+        <button id="themeSwitcher">🌓</button>
+    </div>
+    
+    <!-- Add this before closing </body> tag -->
+    <script src="script.js"></script>
 <!-- Header Section -->
 <header class="header">
     <nav class="navbar container">
         <h1>UI Portfolio</h1>
         <ul>
             <li><a href="#about">About Me</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
-            <li><a href="#services">Services</a></li>
-            <li><a href="#work">Work</a></li>
-            <li><a href="#blog">Blog</a></li>
-            <li><a href="#pages">Pages</a></li>
-            <li><a href="#hire-me">Hire-Me</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#work">Work</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                    <li><a href="#pages">Pages</a></li>
+                    <li><a href="hire-me">Hire-Me</a></li>
         </ul>
     </nav>
 
-    <div class="valentine-text">
-        <h1>Hi, I'm Valentine Sabulkong</h1>
-        <h2>Web Dev</h2>
-        <p>I love Graphic design and Photography and have been working on my portfolio since 2016. I can give your business a new creative start right away!</p>
-        <div class="buttons">
-            <a href="#contact" class="btn primary">Hire Me</a>
-            <a href="#portfolio" class="btn secondary">My Portfolio</a>
+    <div class="hero-content container">
+        <div class="hero-text">
+            <h1>Hi, I'm Valentine Sabulkong</h1>
+            <h2>Web Developer</h2>
+            <p>I love Graphic design and Photography and have been working on my portfolio since 2016. I can give your business a new creative start right away!</p>
+            <div class="buttons">
+                <a href="#contact" class="btn primary">Hire Me</a>
+                <a href="#portfolio" class="btn secondary">My Portfolio</a>
+            </div>
         </div>
     </div>
 </header>
 
-<!-- Hero Section -->
-<section class="hero container" id="about">
-    <div class="hero-text">
-        <h1>A lead UI designer and web developer based in Kenya.</h1>
-        <p>I love graphic design and photography and I have been working on my portfolio since 2016. I can give your business a new creative start right away!</p>
-
-        <ul>
-            <li><strong>Name:</strong> Valentine Sabulkong</li>
-            <li><strong>Email:</strong> sabulkongvalentine@gmail.com</li>
-            <li><strong>Phone:</strong> 0784617593</li>
-            <li><strong>Location:</strong> Nairobi</li>
-        </ul>
-
-        <div class="social-links">
-            <a href="https://www.linkedin.com/valentine.sabulkong" target="_blank">LinkedIn</a>
-            <a href="https://twitter.com/ValentineSabul1" target="_blank">Twitter</a>
-            <a href="https://github.com/sabulkong" target="_blank">GitHub</a>
+<!-- Biography Section -->
+<section class="biography container" id="about">
+    <div class="bio-image">
+        <img src="Valentine Sabulkong.jpg" alt="Valentine Sabulkong" >
+    </div>
+    <div class="bio-text">
+        <h2>MY BIOGRAPHY</h2>
+        <h3>A Lead UI Designer & Web Developer Based In Kenya</h3>
+        <p>I love Graphic design and Photography and have been working on my portfolio since 2016. I Can give your business a new Creative start right away! Contact me and we will discuss your projects!</p>
+        
+        <div class="bio-info">
+            <ul>
+                <li><strong>Name:</strong> Valentine Sabulkong</li>
+                <li><strong>Email:</strong> sabulkongvalentine@gmail.com</li>
+                <li><strong>From:</strong> Nairobi,Keanya</li>
+                <li><strong>Phone:</strong> +254784617593</li>
+            </ul>
         </div>
 
-        <div class="bio-button">
-            <a href="#contact" class="btn primary">Hire Me</a>
-            <a href="#" class="btn-outline">Download CV</a>
+        <div class="social">
+            <h4>Follow me on</h4>
+            <div class="social-links">
+                <span>Be in 💤️❤️</span>
+            </div>
         </div>
     </div>
 
-    <div class="hero-image">
-        <img src="Valentine Sabulkong.jpg" alt="Valentine Sabulkong">
-    </div>
+    
+
 </section>
 
-<!-- What I Do Section -->
-<section class="what-i-do" id="services">
+<!-- Services Section -->
+<section class="services" id="services">
     <div class="container">
         <h2>What I Do For You</h2>
-        <p>I offer a range of creative and technical services to help bring your ideas to life. Whether you're building from scratch or elevating an existing brand, I've got you covered.</p>
-        <ul class="services-list">
-            <li>
+        <div class="services-grid">
+            <div class="service-card">
                 <h3>Web Development</h3>
-                <p>I craft responsive, clean, and modern websites that not only look great but perform exceptionally across all devices.</p>
-            </li>
-            <li>
-                <h3>App Development</h3>
-                <p>From idea to execution, I build functional and user-friendly mobile apps that solve real problems and delight users.</p>
-            </li>
-            <li>
+                <p>Sed ut perspiciatis unde omnis iste natus error sit accusa nitum dolor emque laudan.</p>
+            </div>
+            <div class="service-card">
+                <h3>App development</h3>
+                <p>Sed ut perspiciatis unde omnis iste natus error sit accusa nitum dolor emque laudan.</p>
+            </div>
+            <div class="service-card">
                 <h3>Photography</h3>
-                <p>With a keen eye for aesthetics, I offer high-quality photography services to give your brand or project the visual edge it deserves.</p>
-            </li>
-        </ul>
+                <p>Sed ut perspiciatis unde omnis iste natus error sit accusa nitum dolor emque laudan.</p>
+            </div>
+        </div>
+        <a href="#" class="more-services">More Services →</a>
     </div>
 </section>
 
 <!-- Skills Section -->
 <section class="skills" id="skills">
     <div class="container">
-        <h2>My Featured Skills</h2>
-        <p>I specialize in branding and strategy, and I am passionate about creating awesome portfolio work. I am always ready to impress the audience with my creativity.</p>
-        <ul class="skills-list">
-            <li>UI/UX Design</li>
-            <li>Ideas & Technology</li>
-            <li>Branding Design</li>
-            <li>Responsive Web Design</li>
-        </ul>
-    </div>
-</section>
-
-<!-- Stats Section -->
-<section class="stats">
-    <div class="stat">
-        <h2>135+</h2>
-        <p>Finished Projects</p>
-    </div>
-    <div class="stat">
-        <h2>225+</h2>
-        <p>Working Hours</p>
-    </div>
-    <div class="stat">
-        <h2>115</h2>
-        <p>Online Support</p>
-    </div>
-    <div class="stat">
-        <h2>272+</h2>
-        <p>Happy Customers</p>
-    </div>
-</section>
-
-<!-- Portfolio Section -->
-<section class="portfolio" id="projects">
-    <div class="container">
-        <h2>My Success Work</h2>
-        <div class="projects">
-            <img src="https://placehold.co/300x200?text=Project+1" alt="Project 1">
-            <img src="https://placehold.co/300x200?text=Project+2" alt="Project 2">
-            <img src="https://placehold.co/300x200?text=Project+3" alt="Project 3">
-            <img src="https://placehold.co/300x200?text=Project+4" alt="Project 4">
-            <img src="https://placehold.co/300x200?text=Project+5" alt="Project 5">
-            <img src="https://placehold.co/300x200?text=Project+6" alt="Project 6">
-        </div>
+        <h2>MY SKILLS</h2>
+        <h3>My Featured Skills</h3>
+        <!-- Add skill bars or other skill elements here -->
     </div>
 </section>
 
 <!-- Footer Section -->
 <footer>
-    <div class="certifications container">
-        <img src="https://placehold.co/120x60?text=Cert+1" alt="Certification 1">
-        <img src="https://placehold.co/120x60?text=Cert+2" alt="Certification 2">
-        <img src="https://placehold.co/120x60?text=Cert+3" alt="Certification 3">
-        <img src="https://placehold.co/120x60?text=Cert+4" alt="Certification 4">
-    </div>
-
-    <div class="footer">
-        <p>&copy; 2025 Valentine Sabulkong. All Rights Reserved.</p>
+    <div class="container">
+        <p>&copy; 2025 Valentine Sabulkong. All rights reserved.</p>
     </div>
 </footer>
+<!-- Search Icon -->
+<div class="search-container">
+    <span class="search-icon">🔍</span>
+    <input type="text" class="search-input" placeholder="Search...">
+</div>
 
+<!-- Sidebar Menu -->
+<div class="sidebar-menu">
+    <button class="sidebar-btn back">⬅ Back</button>
+    <button class="sidebar-btn download">📥 Download</button>
+    <button class="sidebar-btn buy">💰 Buy</button>
+</div>
 </body>
 </html>
