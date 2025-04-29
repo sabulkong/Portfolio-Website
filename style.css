@@ -183,7 +183,7 @@ nav {
 .side-panel {
   position: fixed;
   right: 0;
-  top: 35%;
+  top: 45%;
   transform: translateY(-50%);
   background-color: rgb(10, 10, 37);
   border-radius: 10px 0 0 10px;
@@ -350,8 +350,133 @@ nav {
   color: white;
 }
 
-/* Skills Section Styles */
+
+
+
+
+
+
+
+
+
+
 .skills {
+  padding: 1rem ;
+  position: relative;
+}
+
+.skills-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  gap: 2rem;
+  /* position: relative; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 50%;
+}
+
+.skills-images {
+  width: 50%;
+  /* display: flex; */
+  align-items: center;
+  /* position: relative; */
+  transform: translateY(-120%);
+}
+.skills-images img {
+  max-width: 200px;
+  height: auto;
+  
+}
+
+.skills-content {
+  flex: 1;
+}
+
+.skills-text {
+  text-transform: uppercase;
+  color: #666;
+  font-size: 0.9rem;
+  letter-spacing: 2px;
+  margin-bottom: 1rem;
+}
+
+.skills-content h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+  color: #333;
+}
+
+.skills-content p {
+  color: #666;
+  line-height: 1.6;
+  margin-bottom: 2rem;
+}
+
+.skills-list {
+  list-style: none;
+  padding: 0;
+}
+
+.skills-list li {
+  margin-bottom: 1.5rem;
+}
+
+.skills-list span {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: #333;
+  font-weight: 500;
+}
+
+.progress-bar {
+  background-color: #f0f0f0;
+  height: 6px;
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+.progress {
+  height: 100%;
+  background-color: #00a686;
+  transition: width 0.5s ease-in-out;
+}
+
+.skills-bottom-image {
+  position: absolute;
+  bottom: -2px;
+  left: 50%;
+  transform: translateX(-130%);
+  text-align: center;
+}
+
+.skills-bottom-image img {
+  max-width: 400px;
+  height: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Skills Section Styles */
+ /* .skills {
 background-color: #fff;
 padding: 50px 0;
 }
@@ -366,15 +491,99 @@ align-items: center;
 width: 25%;
 display: flex;
 flex-direction: column;
-gap: 20px;
-}
 
-.skills-images img {
+} 
+
+ .skills-images img {
 width: 100%;
 border-radius: 10px;
+}  */
+
+
+
+/* Skills Section */
+/* .skills {
+  padding: 60px 0;
 }
 
-.skills-content {
+.skills-container {
+  max-width: 1140px;
+  margin: 0 auto;
+  display: flex;
+ 
+} */
+
+/* Skills Images & Text */ 
+/* .skills-images {
+  margin-bottom: 30px;
+}
+
+/* .skills-images img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+} */
+
+/* .skill-text {
+  color: #666;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  margin-top: 20px;
+}
+
+.skills-images h2 {
+  font-size: 32px;
+  color: #333;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  font-weight: 600;
+} */
+
+/* Skills Content */
+/* .skills-content p {
+  color: #666;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+.skills-list {
+  list-style: none;
+}
+
+.skills-list li {
+  margin-bottom: 20px;
+}
+
+.skills-list li span {
+  display: block;
+  font-size: 15px;
+  margin-bottom: 8px;
+  color: #333;
+  font-weight: 500;
+} */
+
+/* Progress Bars */
+/* .progress-bar {
+  background-color: #f0f0f0;
+  height: 8px;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.progress {
+  height: 100%;
+  background-color: #00a686; 
+  border-radius: 4px;
+} */
+
+
+
+
+
+
+
+/* .skills-content {
 width: 50%;
 }
 
@@ -418,7 +627,7 @@ overflow: hidden;
 height: 100%;
 background-color: #28A745;
 transition: width 0.5s ease-in-out;
-}
+} */
 
 /* Services Section */
 .services-section {
@@ -478,6 +687,7 @@ transition: width 0.5s ease-in-out;
   font-weight: 600;
   display: inline-flex;
   align-items: center;
+ 
 }
 
 .more-services:hover {
@@ -542,6 +752,7 @@ transition: width 0.5s ease-in-out;
 .skills-image img {
   width: 50%;
   height: auto;
+  
   
 }
 
