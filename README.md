@@ -61,8 +61,7 @@ To run this project locally:
    - Customize CSS styles in `style.css`.
    - Update images and portfolio items in the `assets/` folder.
 
-#👥 Group Members
-This project was developed collaboratively by:
+#👥 This portfolio was developed collaboratively by:
 - **Michael Randa**
 - **Valentine Jerop**
 - **Roda Nyamai**
