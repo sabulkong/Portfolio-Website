@@ -66,7 +66,3 @@ This project was developed collaboratively by:
 - **Michael Randa**
 - **Valentine Jerop**
 - **Roda Nyamai**
-
----
-
-Let me know if you'd like a downloadable `.md` file or help creating a GitHub repository with this.
