@@ -63,5 +63,5 @@ To run this project locally:
 
 #👥 This portfolio was developed collaboratively by:
 - **Michael Randa**
-- **Valentine Jerop**
+- **Valentine Sabulkong**
 - **Roda Nyamai**

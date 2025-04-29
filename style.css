@@ -369,7 +369,6 @@ nav {
   max-width: 1200px;
   margin: 0 auto;
   gap: 2rem;
-  /* position: relative; */
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -378,9 +377,7 @@ nav {
 
 .skills-images {
   width: 50%;
-  /* display: flex; */
   align-items: center;
-  /* position: relative; */
   transform: translateY(-120%);
 }
 .skills-images img {
@@ -455,105 +452,14 @@ nav {
   height: auto;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* Skills Section Styles */
- /* .skills {
-background-color: #fff;
-padding: 50px 0;
-}
-
-.skills-container {
-display: flex;
-justify-content: space-between;
-align-items: center;
-}
-
-.skills-images {
-width: 25%;
-display: flex;
-flex-direction: column;
-
-} 
-
- .skills-images img {
-width: 100%;
-border-radius: 10px;
-}  */
-
-
-
-/* Skills Section */
-/* .skills {
-  padding: 60px 0;
-}
-
-.skills-container {
-  max-width: 1140px;
-  margin: 0 auto;
-  display: flex;
- 
-} */
-
-/* Skills Images & Text */ 
-/* .skills-images {
-  margin-bottom: 30px;
-}
-
-/* .skills-images img {
-  max-width: 100%;
-  height: auto;
-  display: block;
-} */
-
-/* .skill-text {
-  color: #666;
-  font-size: 14px;
-  font-weight: 500;
-  letter-spacing: 1px;
-  margin-top: 20px;
-}
-
 .skills-images h2 {
   font-size: 32px;
   color: #333;
   margin-top: 5px;
   margin-bottom: 20px;
   font-weight: 600;
-} */
+} 
 
-/* Skills Content */
-/* .skills-content p {
-  color: #666;
-  line-height: 1.6;
-  margin-bottom: 30px;
-}
-
-.skills-list {
-  list-style: none;
-}
-
-.skills-list li {
-  margin-bottom: 20px;
-}
 
 .skills-list li span {
   display: block;
@@ -563,8 +469,8 @@ border-radius: 10px;
   font-weight: 500;
 } */
 
-/* Progress Bars */
-/* .progress-bar {
+
+ .progress-bar {
   background-color: #f0f0f0;
   height: 8px;
   border-radius: 4px;
@@ -577,13 +483,7 @@ border-radius: 10px;
   border-radius: 4px;
 } */
 
-
-
-
-
-
-
-/* .skills-content {
+ .skills-content {
 width: 50%;
 }
 
@@ -627,9 +527,8 @@ overflow: hidden;
 height: 100%;
 background-color: #28A745;
 transition: width 0.5s ease-in-out;
-} */
+} 
 
-/* Services Section */
 .services-section {
   background-color: #f5f5f5;
   padding: 4rem;
@@ -694,7 +593,6 @@ transition: width 0.5s ease-in-out;
   text-decoration: underline;
 }
 
-/* Skills Section */
 .skills-section {
   background-color: #f5f5f5;
   padding: 4rem;
@@ -756,7 +654,6 @@ transition: width 0.5s ease-in-out;
   
 }
 
-/* Stats Section */
 .stats-section {
   background-color: #f9f9f9;
   padding: 3rem 4rem;
@@ -781,7 +678,6 @@ transition: width 0.5s ease-in-out;
   font-size: 1rem;
 }
 
-/* Portfolio Section */
 .portfolio-section {
   background-color: #f5f5f5;
   padding: 4rem;
@@ -818,7 +714,6 @@ transition: width 0.5s ease-in-out;
   transform: scale(1.05);
 }
 
-/* Partners Section */
 .partners-section {
   background-color: #00a67d;
   padding: 3rem 4rem;
@@ -833,7 +728,6 @@ transition: width 0.5s ease-in-out;
   opacity: 0.9;
 }
 
-/* Code Editor Badge */
 .code-editor-badge {
   position: absolute;
   bottom: 20px;
@@ -853,7 +747,6 @@ transition: width 0.5s ease-in-out;
   height: 20px;
 }
 
-/* Footer Styles */
 .footer {
 background-color: #00252e;
 padding: 30px 0;
